@@ -12,4 +12,5 @@ target 'Association' do
   pod 'RIBs', '~> 0.9.1'
   pod 'SnapKit', '~> 4.0.0'
   pod 'RxCocoa', '~> 4.0.0'
+  pod 'AssociationShared', :git => 'https://github.com/makegoodstuff/AssociationShared.git', :tag => '0.0.3'
 end
