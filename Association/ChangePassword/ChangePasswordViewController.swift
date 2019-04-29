@@ -2,9 +2,9 @@ import RxCocoa
 import RxSwift
 import UIKit
 
-import ChangePassword
+import AssociationShared
 
-class ChangePasswordViewController: UIViewController, /*ChangePassword.*/ChangePasswordPresentable {
+class ChangePasswordViewController: UIViewController, AssociationShared.ChangePasswordPresentable {
     lazy var passwordFieldObservable: Observable<String> = passwordField.rx.text.asObservable()
     lazy var didSubmitObservable: Observable<Void> = submitButton.rx.tap
     

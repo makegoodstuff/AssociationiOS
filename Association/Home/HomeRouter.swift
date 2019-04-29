@@ -7,8 +7,7 @@
 //
 
 import RIBs
-
-import ChangePassword
+import AssociationShared
 
 protocol HomeInteractable: Interactable, ChangePasswordListener {
     var router: HomeRouting? { get set }

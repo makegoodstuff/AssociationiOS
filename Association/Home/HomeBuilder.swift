@@ -7,8 +7,7 @@
 //
 
 import RIBs
-
-import ChangePassword
+import AssociationShared
 
 protocol HomeDependency: Dependency, HomeDependencyChangePassword {
     // TODO: Declare the set of dependencies required by this RIB, but cannot be
@@ -16,7 +15,6 @@ protocol HomeDependency: Dependency, HomeDependencyChangePassword {
 }
 
 final class HomeComponent: Component<HomeDependency> {
-
     // TODO: Declare 'fileprivate' dependencies that are only used by this RIB.
 }
 
