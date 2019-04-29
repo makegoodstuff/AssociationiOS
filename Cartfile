@@ -1,4 +1,4 @@
 github "ReactiveX/RxSwift" == 4.5.0
 github "uber/RIBs" ~> 0.9
 github "SnapKit/SnapKit" == 4.2.0
-github "makegoodstuff/AssociationFramework" == 0.0.3
+github "makegoodstuff/AssociationFramework" == 0.0.5
