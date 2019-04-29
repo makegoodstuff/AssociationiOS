@@ -43,7 +43,7 @@ final class HomeBuilder: Builder<HomeDependency>, HomeBuildable {
         return HomeRouter(
             interactor: interactor, 
             viewController: viewController,
-            changePasswordBuilder: changePasswordBuilder,
+            changePasswordBuilder: changePasswordBuilder
         )
     }
 }
